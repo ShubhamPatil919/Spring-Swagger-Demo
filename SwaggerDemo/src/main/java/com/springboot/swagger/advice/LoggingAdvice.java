@@ -16,7 +16,8 @@ public class LoggingAdvice {
 
 	Logger log = LoggerFactory.getLogger(LoggingAdvice.class);
 
-	@Pointcut(value = "execution(* com.springboot.swagger.*.*.*(..))") // com.springboot.swagger.restapi.EmployeeApi.getAllEmployee(..)
+	// com.springboot.swagger.restapi.EmployeeApi.getAllEmployee(..) For Particular package use 
+	@Pointcut(value = "execution(* com.springboot.swagger.*.*.*(..))") 
 	public void myPointCut() {
 
 	}
