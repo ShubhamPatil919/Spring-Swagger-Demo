@@ -1,0 +1,53 @@
+2020-07-02 19:01:16.279  INFO 2924 --- [restartedMain] c.s.swagger.SwaggerDemoApplication       : Starting SwaggerDemoApplication on welcome-PC with PID 2924 (C:\Users\welcome\Desktop\SpringBatch\Spring-Swagger-Demo\SwaggerDemo\target\classes started by welcome in C:\Users\welcome\Desktop\SpringBatch\Spring-Swagger-Demo\SwaggerDemo)
+2020-07-02 19:01:16.279  INFO 2924 --- [restartedMain] c.s.swagger.SwaggerDemoApplication       : No active profile set, falling back to default profiles: default
+2020-07-02 19:01:18.322  INFO 2924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-02 19:01:18.322  INFO 2924 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-02 19:01:18.322  INFO 2924 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-02 19:01:18.338  INFO 2924 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-02 19:01:18.338  INFO 2924 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2059 ms
+2020-07-02 19:01:19.626  INFO 2924 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-02 19:01:20.128  INFO 2924 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 19:01:20.268  INFO 2924 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-02 19:01:20.955  INFO 2924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-02 19:01:20.955  INFO 2924 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-02 19:01:20.955  INFO 2924 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-02 19:01:20.970  INFO 2924 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-02 19:01:21.017  INFO 2924 --- [restartedMain] c.s.swagger.SwaggerDemoApplication       : Started SwaggerDemoApplication in 4.947 seconds (JVM running for 407.321)
+2020-07-02 19:01:21.033  INFO 2924 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-02 19:05:29.070  INFO 2924 --- [Thread-370] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-02 19:09:38.882  INFO 2924 --- [restartedMain] c.s.swagger.SwaggerDemoApplication       : Starting SwaggerDemoApplication on welcome-PC with PID 2924 (C:\Users\welcome\Desktop\SpringBatch\Spring-Swagger-Demo\SwaggerDemo\target\classes started by welcome in C:\Users\welcome\Desktop\SpringBatch\Spring-Swagger-Demo\SwaggerDemo)
+2020-07-02 19:09:38.898  INFO 2924 --- [restartedMain] c.s.swagger.SwaggerDemoApplication       : No active profile set, falling back to default profiles: default
+2020-07-02 19:09:41.550  INFO 2924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-02 19:09:41.550  INFO 2924 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-02 19:09:41.550  INFO 2924 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-02 19:09:41.644  INFO 2924 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-02 19:09:41.644  INFO 2924 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2731 ms
+2020-07-02 19:09:43.595 DEBUG 2924 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2020-07-02 19:09:43.940  INFO 2924 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-02 19:09:44.423  INFO 2924 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 19:09:44.610  INFO 2924 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-02 19:09:44.610 DEBUG 2924 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-02 19:09:44.673 DEBUG 2924 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Detected 1 mappings in 'beanNameHandlerMapping'
+2020-07-02 19:09:44.704 DEBUG 2924 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-02 19:09:44.751 DEBUG 2924 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-02 19:09:44.939  INFO 2924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-02 19:09:44.954  INFO 2924 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-02 19:09:44.954  INFO 2924 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-02 19:09:45.173  INFO 2924 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-02 19:09:45.251  INFO 2924 --- [restartedMain] c.s.swagger.SwaggerDemoApplication       : Started SwaggerDemoApplication in 6.541 seconds (JVM running for 911.542)
+2020-07-02 19:09:45.313  INFO 2924 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-02 19:10:28.789  INFO 2924 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-02 19:10:28.789  INFO 2924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-02 19:10:28.789 DEBUG 2924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-02 19:10:28.804 DEBUG 2924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-02 19:10:28.804  INFO 2924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-07-02 19:10:28.820 DEBUG 2924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/", parameters={}
+2020-07-02 19:10:28.821 DEBUG 2924 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.springboot.swagger.restapi.EmployeeApi#addEmployee(Employee)
+2020-07-02 19:10:28.821 DEBUG 2924 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.springboot.swagger.model.Employee@553e6]
+2020-07-02 19:10:28.836  INFO 2924 --- [http-nio-8080-exec-1] c.s.swagger.advice.LoggingAdvice         : Method Invoked---> class com.springboot.swagger.restapi.EmployeeApi:addEmployee() Arguments--> [{"empId":1,"empName":"Shubham","phoneNo":9892317796}]
+2020-07-02 19:10:28.836 ERROR 2924 --- [http-nio-8080-exec-1] c.s.swagger.advice.LoggingAdvice         : An Error has Occuredclass com.springboot.swagger.restapi.EmployeeApi
+2020-07-02 19:10:28.868  INFO 2924 --- [http-nio-8080-exec-1] c.s.swagger.advice.LoggingAdvice         : Response Method ---> class com.springboot.swagger.restapi.EmployeeApi:addEmployee() Response--> {"empId":1,"empName":"Shubham","phoneNo":9892317796}
+2020-07-02 19:10:28.883 DEBUG 2924 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-02 19:10:28.883 DEBUG 2924 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.springboot.swagger.model.Employee@553e6]
+2020-07-02 19:10:28.883 DEBUG 2924 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-02 19:11:23.160  INFO 2924 --- [Thread-736] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
