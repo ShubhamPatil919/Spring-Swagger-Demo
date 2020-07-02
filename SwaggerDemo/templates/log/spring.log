@@ -1,0 +1,11 @@
+2020-07-02 20:25:00.191  INFO 3876 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-02 20:25:00.191  INFO 3876 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-02 20:25:00.238  INFO 3876 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 47 ms
+2020-07-02 20:25:00.738  INFO 3876 --- [http-nio-8080-exec-1] c.s.swagger.advice.LoggingAdvice         : Method Invoked---> class com.springboot.swagger.restapi.EmployeeApi:addEmployee() Arguments--> [{"empId":1,"empName":"Shubham","phoneNo":999999999}]
+2020-07-02 20:25:00.738 ERROR 3876 --- [http-nio-8080-exec-1] c.s.swagger.advice.LoggingAdvice         : An Error has Occuredclass com.springboot.swagger.restapi.EmployeeApi
+2020-07-02 20:25:00.754  INFO 3876 --- [http-nio-8080-exec-1] c.s.swagger.advice.LoggingAdvice         : Response Method ---> class com.springboot.swagger.restapi.EmployeeApi:addEmployee() Response--> {"empId":1,"empName":"Shubham","phoneNo":999999999}
+2020-07-02 20:25:58.911  INFO 3876 --- [http-nio-8080-exec-3] c.s.swagger.advice.LoggingAdvice         : Method Invoked---> class com.springboot.swagger.restapi.EmployeeApi:getAllEmployee() Arguments--> []
+2020-07-02 20:25:58.911 ERROR 3876 --- [http-nio-8080-exec-3] c.s.swagger.advice.LoggingAdvice         : An Error has Occuredclass com.springboot.swagger.restapi.EmployeeApi
+2020-07-02 20:25:58.990  INFO 3876 --- [http-nio-8080-exec-3] c.s.swagger.advice.LoggingAdvice         : Response Method ---> class com.springboot.swagger.restapi.EmployeeApi:getAllEmployee() Response--> [{"empId":1,"empName":"Shubham","phoneNo":999999999}]
+2020-07-02 20:26:42.186  INFO 3876 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-02 20:26:42.595  INFO 3876 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
